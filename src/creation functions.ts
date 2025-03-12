@@ -96,3 +96,7 @@ forkJoin([a$, b$]).subscribe({
 // - needs at least one value from each observable to starting emit
 // - emits an array of latest values each time any of them emits something
 // for inputs
+
+
+// concat
+// Subscribe to observables in order as previous completes
